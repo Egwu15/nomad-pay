@@ -102,7 +102,7 @@ export default function Header() {
                       <div className="flex-auto">
                         <a
                           href={item.href}
-                          className="block font-semibold text-white"
+                          className="block font-semibold text-black"
                         >
                           {item.name}
                           <span className="absolute inset-0" />
@@ -117,7 +117,7 @@ export default function Header() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-white hover:bg-gray-100"
+                      className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-400 hover:bg-gray-100"
                     >
                       <item.icon
                         className="h-5 w-5 flex-none text-gray-400"
@@ -139,10 +139,10 @@ export default function Header() {
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <button class="bg-white hover:bg-gray-100 text-purple-600 font-bold text-sm py-2 px-4 rounded shadow">
+          <button class="bg-white hover:bg-gray-100 text-dark-purple font-bold text-sm py-2 px-4 rounded shadow">
             Log In
           </button>
-          <button class="bg-purple-600 hover:bg-purple-800 text-white font-bold text-sm py-2 px-4 mx-4 rounded shadow">
+          <button class="bg-dark-purple hover:bg-purple-800 text-white font-bold text-sm py-2 px-4 mx-4 rounded shadow">
             Create Account
           </button>
         </div>
