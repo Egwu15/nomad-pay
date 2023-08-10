@@ -21,7 +21,7 @@ function SectionThree() {
   ];
 
   return (
-    <div className="bg-custom-blue text-white  py-20 px-20">
+    <div className="bg-custom-blue text-white  py-20 px-10 md:px-20">
       <h3 className="w-full lg:w-4/6 font-bold text-3xl">
         Sending money has never been easier, NomadPay allows you to do this in a
         few clicks

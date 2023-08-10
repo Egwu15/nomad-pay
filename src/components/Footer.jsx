@@ -8,7 +8,7 @@ function Footer() {
         <p className="pt-5">© 2023 NomadPay. All Rights Reserved</p>
       </div>
       <div className="w-full md:w-5/6 flex justify-end ">
-        <div className="grid-rows-3 gap-5 flex flex-col md:flex-row">
+        <div className="grid-rows-3 gap-5 flex pt-10 md:pt-0 ">
           <div>
             <h5 className="font-bold pb-3">Product</h5>
             <p className="text-gray-500 text-sm pb-2">Money Transfer</p>
